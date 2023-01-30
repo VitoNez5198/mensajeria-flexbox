@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    min-height: 100vh;
+    
+    
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px gray;
+    
+    
+}
+
+.chat a {
+    text-decoration: none;
+    background-color: #a491d2;
+    color: white;
+    padding: 10px 50px;
+    margin: 20px;
+    
+}
+
+.chat a:hover {
+    opacity: 80%;
+}
+
+.user {
+    display: flex;
+    padding: 10px;
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 300px;
+}
+
+.info-user {
+    
+    display: flex;
+    
+}
+
+.info-user div p{
+    font-size: 10px;
+    color: gray;
+}
+
+.user img {
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    
+    
+}
+
+.contacto {
+    display: flex;
+    padding: 7px;
+    border: 1px solid gray ;
+    font-size: 12px;
+    
+    justify-content: center;
+}
+
+.contacto img {
+    border-radius: 50%;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.icons i {
+    font-size: 20px;
+    padding: 9px;
+}
+
+
+.mensaje div img {
+    width: 360px;
+}
+
+.mensaje div p {
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 400;
+    font-size: 15px;    
+    display: flex;
+    justify-content: center;
+}
+
+.mensaje {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ebe4;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.mensaje h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    
+}
